@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  align-self: center;
+  color: #ffffff;
+}
+
+.two-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-container {
+  text-align: center;
+  margin-right: 16px;
+}
+
+.toggle-name {
+  background-color: #ffffff;
+  height: 100px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.btn {
+  color: #dd1264;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  height: 30px;
+  padding: 6px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.font-style {
+  font-weight: bold;
+  font-size: medium;
+}
